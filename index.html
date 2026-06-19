@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURORA - 極限のシンプルと美を追求するデザイン・エージェンシー</title>
+  <meta name="description" content="私たちは「白」の余白と洗練されたテクノロジーで、ブランドの未来を描くクリエイティブ・エージェンシーです。">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- --- ヘッダー・ナビゲーション --- -->
+  <header>
+    <a href="#home" class="logo">AURORA</a>
+    <nav>
+      <a href="#home" class="active">TOP</a>
+      <a href="#philosophy">思い</a>
+      <a href="#services">サービス</a>
+      <a href="#achievements">実績</a>
+      <a href="#cases">事例</a>
+      <a href="#company">会社案内</a>
+      <a href="#careers">採用情報</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="burger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         1. トップページ (Home / Top)
+         ========================================== -->
+    <section id="home" class="page active">
+      <!-- ヒーロー動画セクション -->
+      <div class="hero">
+        <div class="hero-video-container">
+          <video autoplay loop muted playsinline>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-minimalist-white-waves-of-sand-loop-42867-large.mp4" type="video/mp4">
+            <!-- フォールバック用 -->
+            <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0227e3dc91206295f6f42e6b5a09c8e&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
+          </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>余白の美学、本質のデザイン。</h1>
+          <p>純粋なアイデアと洗練された設計で、唯一無二の価値を創造します。</p>
+          <a href="#philosophy" class="btn">View Concept</a>
+        </div>
+        <a href="#philosophy" class="scroll-indicator">
+          <span>SCROLL</span>
+          <div class="scroll-line"></div>
+        </a>
+      </div>
+
+      <!-- トップページイントロダクション -->
+      <div class="container reveal">
+        <div class="home-intro">
+          <h2>静寂の中に生まれる、強烈なアイデンティティ。</h2>
+          <p>
+            何もない空間には、無限の可能性が秘められています。私たちは「白」という最も純粋なキャンバスの上に、お客様のビジョンをシンプルかつ力強いデザインとして描きます。複雑な情報があふれる現代だからこそ、削ぎ落とされた本質のデザインが、人々の心に最も深く届くのです。
+          </p>
+        </div>
+      </div>
+
+      <!-- トップページの注目コンテンツ (横並びレイアウト) -->
+      <div class="container">
+        <div class="layout-side-by-side reveal">
+          <div class="side-image">
+            <img src="assets/concept.png" alt="建築的余白の美">
+          </div>
+          <div class="side-text">
+            <span class="section-subtitle">Core Value</span>
+            <h3>無駄を排除した、機能美</h3>
+            <p>
+              私たちのデザインアプローチは、単なる視覚的装飾ではありません。プロダクトの本質、サービスの価値を徹底的に見つめ直し、それを最も直感的かつエレガントに伝えるための構造を設計します。
+            </p>
+            <div>
+              <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         2. 思い (Philosophy / Vision)
+         ========================================== -->
+    <section id="philosophy" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Philosophy</span>
+          <h2 class="section-title">私たちの思い</h2>
+        </div>
+
+        <!-- ヒーロー画像 (画像の下に説明テキスト) -->
+        <div class="reveal">
+          <div class="philosophy-hero-img">
+            <img src="assets/concept.png" alt="Concept Photo">
+          </div>
+          <div style="max-width: 800px; margin: 0 auto 6rem; text-align: justify;">
+            <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem; text-align: center;">「白」からはじまる、終わりのない物語。</h3>
+            <p style="font-size: 1rem; line-height: 2.2; color: var(--text-secondary);">
+              何もないことは、貧しさではなく豊かさです。日本古来の「間（ま）」や「余白」の文化には、見る人の想像力を掻き立て、共感を引き出す知恵が詰まっています。私たちはその精神を現代のテクノロジーとデザインに適用し、単に綺麗なものを作るのではなく、静かに、しかし圧倒的な説得力を持つコミュニケーションを築きます。情報がどれほど変化しようとも、普遍的な本質は常にシンプルです。
+            </p>
+          </div>
+        </div>
+
+        <!-- 3つのミッション (グリッドレイアウト・画像の下に文字) -->
+        <div class="philosophy-grid">
+          <div class="philosophy-item reveal">
+            <h3 class="font-serif" style="border-left: 2px solid var(--accent-color); padding-left: 1rem; margin-bottom: 1rem;">1. 本質の追求 (Essence)</h3>
+            <p>目に見えるものだけでなく、その背景にある機能、歴史、目的を徹底的に掘り下げます。真に求められる美しさと機能性の交差点を見つけ出すことが、私たちの使命です。</p>
+          </div>
+          <div class="philosophy-item reveal">
+            <h3 class="font-serif" style="border-left: 2px solid var(--accent-color); padding-left: 1rem; margin-bottom: 1rem;">2. 感性の調和 (Harmony)</h3>
+            <p>テクノロジーの便利さと、人が直感的に心地よいと感じるアナログな情緒を調和させます。冷たい機械的なデザインではなく、呼吸するデザインを目指します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         3. サービス (Services)
+         ========================================== -->
+    <section id="services" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Services</span>
+          <h2 class="section-title">提供するサービス</h2>
+        </div>
+
+        <div class="service-overview reveal">
+          <p>
+            AURORAは、企業のブランディングからデジタル体験の構築、コンサルティングまで一貫したクリエイティブ・パートナーとしてサポートします。すべてのフェーズにおいて、極限のシンプルさと美しさを一貫させます。
+          </p>
+        </div>
+
+        <div class="services-list">
+          <!-- サービス1 (横並び: 画像左、テキスト右) -->
+          <div class="layout-side-by-side reveal">
+            <div class="side-image">
+              <img src="assets/service_design.png" alt="Brand Experience & Design">
+            </div>
+            <div class="side-text">
+              <span class="num">01</span>
+              <h3>ブランド・エクスペリエンス・デザイン</h3>
+              <p>
+                ロゴマークの策定から、ビジュアルアイデンティティ（VI）の構築、パッケージ、ステーショナリーまで、ブランド全体の視覚的価値をデザインします。企業の哲学を美しいグラフィックとして形にします。
+              </p>
+            </div>
+          </div>
+
+          <!-- サービス2 (横並び: 画像右、テキスト左) -->
+          <div class="layout-side-by-side reverse reveal">
+            <div class="side-image">
+              <img src="assets/service_tech.png" alt="Digital Solutions">
+            </div>
+            <div class="side-text">
+              <span class="num">02</span>
+              <h3>デジタル・ソリューション & 開発</h3>
+              <p>
+                最先端のウェブ開発技術を用い、滑らかで心地よいUI/UXデザインをWebサイトやアプリとして実現します。見た目だけのデザインにとどまらず、表示速度、SEO、アクセシビリティを追求した最高峰のコーディングを提供します。
+              </p>
+            </div>
+          </div>
+
+          <!-- サービス3 (横並び: 画像左、テキスト右) -->
+          <div class="layout-side-by-side reveal">
+            <div class="side-image">
+              <img src="assets/service_strategy.png" alt="Strategic Consulting">
+            </div>
+            <div class="side-text">
+              <span class="num">03</span>
+              <h3>クリエイティブ・ストラテジー</h3>
+              <p>
+                デザインをビジネスの武器にするためのコンサルティングを提供します。市場調査からターゲット設定、コミュニケーション設計にいたるまで、客観的データに基づきつつ、直感的なアイデアを掛け合わせた戦略を構築します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         4. 実績 (Achievements)
+         ========================================== -->
+    <section id="achievements" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Achievements</span>
+          <h2 class="section-title">私たちの実績</h2>
+        </div>
+
+        <!-- 統計データ -->
+        <div class="stats-grid reveal">
+          <div class="stat-item">
+            <div class="stat-number">150+</div>
+            <div class="stat-label">プロジェクト完了</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">45</div>
+            <div class="stat-label">受賞実績</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">98%</div>
+            <div class="stat-label">顧客継続率</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">12</div>
+            <div class="stat-label">グローバルアワード</div>
+          </div>
+        </div>
+
+        <!-- 実績のタイムライン (画像横に文字) -->
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <h4 style="font-size: 1.15rem; margin-bottom: 0.5rem; font-weight: 500;">国際デザインアワード 「Golden Grid Award」 最優秀賞受賞</h4>
+            <p>私たちが手がけた建築設計ブランドのVIデザインが、世界的な評価を受けました。</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-year">2023</div>
+            <h4 style="font-size: 1.15rem; margin-bottom: 0.5rem; font-weight: 500;">東証プライム上場企業のコーポレートサイトフルリニューアル</h4>
+            <p>情報量の多い大規模Webサイトを、独自のグリッドシステムと美学で統合しました。</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-year">2021</div>
+            <h4 style="font-size: 1.15rem; margin-bottom: 0.5rem; font-weight: 500;">クリエイティブ・エージェンシー「AURORA」設立</h4>
+            <p>東京都渋谷区にて、少数精鋭のデザイン・エンジニア集団としてスタートしました。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. 事例 (Case Studies)
+         ========================================== -->
+    <section id="cases" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Case Studies</span>
+          <h2 class="section-title">プロジェクト事例</h2>
+        </div>
+
+        <!-- フィルターボタン -->
+        <div class="filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="tech">Tech</button>
+          <button class="filter-btn" data-filter="strategy">Strategy</button>
+        </div>
+
+        <!-- 事例グリッド (画像の下に文字) -->
+        <div class="layout-grid reveal">
+          <!-- 事例1 -->
+          <div class="stacked-card case-card" data-category="design">
+            <div class="stacked-image">
+              <img src="assets/case_branding.png" alt="Case 1">
+            </div>
+            <div class="stacked-text">
+              <span class="stacked-meta">Design & Branding / 2025</span>
+              <h3 class="stacked-title">COBE Architects ビジュアルアイデンティティ</h3>
+              <p class="stacked-desc">
+                建築設計事務所「COBE」のステーショナリー、名刺、ポートフォリオ用のミニマルなブランディング。コンクリートの美と調和する「白」の余白を極限まで強調したデザイン。
+              </p>
+            </div>
+          </div>
+
+          <!-- 事例2 -->
+          <div class="stacked-card case-card" data-category="tech">
+            <div class="stacked-image">
+              <img src="assets/service_tech.png" alt="Case 2">
+            </div>
+            <div class="stacked-text">
+              <span class="stacked-meta">Web Technology / 2025</span>
+              <h3 class="stacked-title">スマートオフィス管理ツール Web-Application</h3>
+              <p class="stacked-desc">
+                極限まで表示スピードと操作の心地よさにこだわったダッシュボードUIの構築。レスポンシブWebおよびSPAシステムにより、ユーザー離脱率を大幅に改善。
+              </p>
+            </div>
+          </div>
+
+          <!-- 事例3 -->
+          <div class="stacked-card case-card" data-category="strategy">
+            <div class="stacked-image">
+              <img src="assets/service_strategy.png" alt="Case 3">
+            </div>
+            <div class="stacked-text">
+              <span class="stacked-meta">Strategy & Consulting / 2024</span>
+              <h3 class="stacked-title">グローバル向け高級リゾートホテル ブランディング戦略</h3>
+              <p class="stacked-desc">
+                ターゲット分析からメディア露出プランニング、クリエイティブディレクションまでを包括的にサポート。国内外におけるブランド認知度を140%向上させました。
+              </p>
+            </div>
+          </div>
+
+          <!-- 事例4 -->
+          <div class="stacked-card case-card" data-category="design">
+            <div class="stacked-image">
+              <img src="assets/concept.png" alt="Case 4">
+            </div>
+            <div class="stacked-text">
+              <span class="stacked-meta">Architecture Design / 2024</span>
+              <h3 class="stacked-title">WHITE LIGHT メゾネットハウス アートディレクション</h3>
+              <p class="stacked-desc">
+                自然光を効果的に取り入れる現代的な建築プロジェクトのアートディレクションと写真撮影プラン。無垢な空間をそのまま活かした美しいドキュメントブックの作成。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         6. 会社案内 (Company Profile)
+         ========================================== -->
+    <section id="company" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Company</span>
+          <h2 class="section-title">会社案内</h2>
+        </div>
+
+        <!-- 代表メッセージ (画像横に文字) -->
+        <div class="layout-side-by-side reveal" style="margin-bottom: 6rem;">
+          <div class="side-image" style="aspect-ratio: 1 / 1;">
+            <img src="assets/ceo.png" alt="Representative Message" style="object-position: center 20%;">
+          </div>
+          <div class="side-text">
+            <span class="section-subtitle">Message</span>
+            <h3>複雑さに抗い、シンプルであり続けること。</h3>
+            <p>
+              私たちの周りには不要なノイズがあまりにも多すぎます。何かに価値を「足す」ことは簡単ですが、本当に必要な本質だけを「残す」ために引き算をすることは、勇気と確固たる意思が必要です。
+              <br><br>
+              私たちは、パートナーであるお客様の持つ固有の魅力を最大限に磨き出し、世の中にまっすぐ届けるため、愚直に、静かに、デザインに向き合い続けます。
+            </p>
+            <p style="font-family: var(--font-serif); font-size: 1.1rem; margin-top: 1rem; color: var(--text-primary);">
+              代表取締役社長 / クリエイティブディレクター<br><strong>長谷川 健太</strong>
+            </p>
+          </div>
+        </div>
+
+        <!-- 会社概要テーブル -->
+        <div class="company-profile reveal">
+          <table class="profile-table">
+            <tr>
+              <th>社名</th>
+              <td>株式会社 AURORA (AURORA Inc.)</td>
+            </tr>
+            <tr>
+              <th>設立</th>
+              <td>2021年4月1日</td>
+            </tr>
+            <tr>
+              <th>所在地</th>
+              <td>〒150-0001 東京都渋谷区神宮前 1-2-3 LINEAR HILL 4F</td>
+            </tr>
+            <tr>
+              <th>役員</th>
+              <td>
+                代表取締役 / クリエイティブディレクター 長谷川 健太<br>
+                取締役CTO / リードエンジニア 清水 雅人
+              </td>
+            </tr>
+            <tr>
+              <th>事業内容</th>
+              <td>
+                1. コーポレートブランディング・VIデザインの企画・制作<br>
+                2. UI/UXデザイン・高度なWebアプリケーションの開発・保守<br>
+                3. ビジネスプロデュースおよびクリエイティブ戦略コンサルティング
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- マップ (動画の下や横に文字、今回はマップの下に情報) -->
+        <div class="reveal">
+          <div class="map-container">
+            <div class="map-placeholder">
+              <h4 style="font-size: 1.2rem; margin-bottom: 0.5rem; letter-spacing: 0.1em;">AURORA TOKYO STUDIO</h4>
+              <p>JR山手線 原宿駅 徒歩5分 / 東京メトロ 表参道駅 徒歩8分</p>
+              <div style="width: 60px; height: 1px; background-color: var(--accent-color); margin: 1.5rem auto;"></div>
+              <a href="https://maps.google.com" target="_blank" class="btn btn-secondary" style="padding: 0.6rem 1.8rem; font-size: 0.75rem;">View on Google Maps</a>
+            </div>
+            <!-- 薄い幾何学背景モック -->
+            <div style="position: absolute; width: 200%; height: 200%; border: 1px dashed var(--border-color); transform: rotate(15deg); pointer-events: none; opacity: 0.5;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         7. 採用情報 (Careers)
+         ========================================== -->
+    <section id="careers" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Careers</span>
+          <h2 class="section-title">採用情報</h2>
+        </div>
+
+        <div class="careers-hero reveal">
+          <div style="max-width: 800px; margin: 0 auto 5rem; text-align: center;">
+            <h3 style="font-size: 1.6rem; margin-bottom: 1.5rem;">美を信じ、本質を形にする仲間を求めています。</h3>
+            <p>
+              私たちは「完璧」な作品をつくるために妥協しない職人の集まりです。しかし、職場の雰囲気は穏やかで、お互いの専門性を認め、学び合う風土があります。自身の技術と感性を、徹底的に尖らせたい方からのご応募をお待ちしています。
+            </p>
+          </div>
+        </div>
+
+        <!-- 職種アコーディオンリスト -->
+        <div class="job-list reveal">
+          <!-- 職種1 -->
+          <div class="job-card">
+            <div class="job-header">
+              <div>
+                <h4 class="job-title">1. アートディレクター / デザイナー</h4>
+                <div class="job-meta">
+                  <span>正社員</span>
+                  <span>東京オフィス（一部リモート可）</span>
+                </div>
+              </div>
+              <div class="job-arrow">→</div>
+            </div>
+            <div class="job-details">
+              <div class="job-section">
+                <h5>【仕事内容】</h5>
+                <p>VI、パッケージ、コーポレートおよびブランドWebサイト等のアートディレクションとデザイン実務全般。</p>
+              </div>
+              <div class="job-section">
+                <h5>【求める経験・スキル】</h5>
+                <ul>
+                  <li>Illustrator / Photoshop / Figma等の実務使用経験3年以上</li>
+                  <li>ミニマリズムデザインへの深い理解と興味</li>
+                  <li>Web、印刷物双方のポートフォリオが提示できること</li>
+                </ul>
+              </div>
+              <button class="btn btn-apply-trigger" data-job="アートディレクター / デザイナー">Apply for this position</button>
+            </div>
+          </div>
+
+          <!-- 職種2 -->
+          <div class="job-card">
+            <div class="job-header">
+              <div>
+                <h4 class="job-title">2. フロントエンドエンジニア</h4>
+                <div class="job-meta">
+                  <span>正社員</span>
+                  <span>東京オフィス（フルリモート相談可）</span>
+                </div>
+              </div>
+              <div class="job-arrow">→</div>
+            </div>
+            <div class="job-details">
+              <div class="job-section">
+                <h5>【仕事内容】</h5>
+                <p>Webサイト、インタラクティブコンテンツ、および自社/クライアント向けWebアプリケーションのコーディング・設計。</p>
+              </div>
+              <div class="job-section">
+                <h5>【求める経験・スキル】</h5>
+                <ul>
+                  <li>JavaScript(ES6+)、HTML5/CSS3による構築実務経験3年以上</li>
+                  <li>React、Next.js、Vite等のモダンフロントエンド環境の構築経験</li>
+                  <li>パフォーマンスチューニング、SVG/Canvasを用いたUIアニメーション実装スキル</li>
+                </ul>
+              </div>
+              <button class="btn btn-apply-trigger" data-job="フロントエンドエンジニア">Apply for this position</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         8. お問い合わせ (Contact)
+         ========================================== -->
+    <section id="contact" class="page">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Contact</span>
+          <h2 class="section-title">お問い合わせ</h2>
+        </div>
+
+        <div class="contact-container reveal">
+          <!-- 連絡先情報 -->
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <span class="section-subtitle">Email</span>
+              <h4>info@aurora-design.co.jp</h4>
+              <p>新規プロジェクトの御見積、業務提携、採用についてのお問い合わせは右記フォームまたは上記アドレス宛にご連絡ください。</p>
+            </div>
+            <div class="contact-info-item">
+              <span class="section-subtitle">Phone</span>
+              <h4>03-1234-5678</h4>
+              <p>営業時間：平日 10:00 - 18:00 (土日祝定休)</p>
+            </div>
+          </div>
+
+          <!-- 入力フォーム -->
+          <div>
+            <form id="contact-form" autocomplete="off">
+              <div class="form-group">
+                <input type="text" class="form-control" id="contact-name" placeholder=" " required>
+                <label for="contact-name">お名前 / 貴社名</label>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="contact-email" placeholder=" " required>
+                <label for="contact-email">メールアドレス</label>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="contact-subject" placeholder=" ">
+                <label for="contact-subject">ご用件</label>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="contact-message" placeholder=" " required></textarea>
+                <label for="contact-message">メッセージ本文</label>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <div id="contact-success" class="success-msg" style="display: none;">
+              <h3>送信を完了いたしました。</h3>
+              <p>お問い合わせいただき、誠にありがとうございます。<br>内容を確認の上、通常3営業日以内にご返信申し上げます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- 応募登録モーダル --- -->
+  <div id="apply-modal" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div id="apply-success" class="success-msg" style="display: none;">
+        <h3>エントリー完了</h3>
+        <p>
+          ご応募いただきありがとうございます。<br>
+          入力いただいた情報を確認の上、面接に関するご案内をご連絡いたします。
+        </p>
+      </div>
+      <form id="apply-form">
+        <h3 class="font-serif" style="margin-bottom: 2rem;">エントリー応募フォーム</h3>
+        <div class="form-group">
+          <input type="text" class="form-control" id="job-title-input" readonly placeholder=" ">
+          <label for="job-title-input">希望職種</label>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="apply-name" required placeholder=" ">
+          <label for="apply-name">お名前</label>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="apply-email" required placeholder=" ">
+          <label for="apply-email">メールアドレス</label>
+        </div>
+        <div class="form-group">
+          <input type="url" class="form-control" id="apply-portfolio" placeholder=" ">
+          <label for="apply-portfolio">ポートフォリオURL (任意)</label>
+        </div>
+        <button type="submit" class="btn" style="width: 100%;">Submit Application</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- --- フッター --- -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">AURORA</a>
+          <p>美しさと機能性の極限を求め、余白とともにブランドの真のストーリーを表現するエージェンシー。</p>
+        </div>
+        <div class="footer-links">
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="#home">TOP</a></li>
+            <li><a href="#philosophy">思い</a></li>
+            <li><a href="#services">サービス</a></li>
+            <li><a href="#achievements">実績</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Info</h5>
+          <ul>
+            <li><a href="#cases">事例</a></li>
+            <li><a href="#company">会社案内</a></li>
+            <li><a href="#careers">採用情報</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AURORA Inc. All rights reserved.</p>
+        <p>Designed with absolute minimalism.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
